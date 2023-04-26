@@ -14,6 +14,7 @@ class Fibo: public Base {
       int next = 1;
       int temp;
     
+      std::cout << "Fibo number : " << std::endl;
       std::cout << prev << std::endl;
       std::cout << next << std::endl;
       for (int i=0; i<x-2; i++) {
@@ -29,6 +30,7 @@ class Odd: public Base {
   public:
     void Print(int x) {
       int start = 1;
+      std::cout << "Odd number : " << std::endl;
       for (int i=0; i<x; i++) {
           std::cout << start << std::endl;
           start += 2;
@@ -40,6 +42,7 @@ class Even: public Base {
   public:
     void Print(int x) {
       int start = 2;
+      std::cout << "Even number : " << std::endl;
       for (int i=0; i<x; i++) {
           std::cout << start << std::endl;
           start += 2;
